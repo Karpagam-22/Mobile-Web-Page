@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+#navbar
+{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color:bisque;
+}
+.navbar .navbar-brand
+{
+    font-size: 25px;
+    font-weight: 800;
+    color:navy !important;
+}
+#navbarSupportedContent a
+{
+    color:navy;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover
+{
+    border-bottom: 2px solid navy;
+}
+#navbarSupportedContent button
+{
+    background-color: navy;
+    border-radius: 15px;
+}
+section
+{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/****Home****/
+
+#home
+{
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url('../Media22/PhoneBG1.jpg');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1
+{
+    font-size: 100px;
+    color: black;
+    letter-spacing: 3px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    text-shadow: 0px 1px 0px #CCC;
+    text-shadow: 0px 2px 0px #CCC;
+    text-shadow: 0px 3px 0px #CCC;
+    text-shadow: 0px 4px 0px #CCC;
+    text-shadow: opx 5px 0px #CCC;
+}
+#home p
+{
+    font-size: 18px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+#home .input-group
+{
+    width: 40%;
+    height: 45px;
+}
+.clickon
+{
+    background: navy !important;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+/*****About*****/
+
+#aboutus h1
+{
+    font-weight: 800;
+    font-size: 50px;
+    color:tomato;
+}
+#img
+{
+    display: flex;
+    gap: 47px;
+}
+#ourproducts h1
+{
+    font-weight: 800;  
+    font-size: 50px;
+    color: tomato;  
+}
+#card
+{
+    font-weight: 800;
+    font-size: 60px;
+    color:maroon;
+    background-color:silver;
+}
+#title
+{
+    height: 300px;
+    display: flex;
+    gap: 200px;
+    margin:10%;
+}
+#booking h1
+{
+    font-weight: 800;   
+    font-size: 50px;
+    margin-top: 70%;
+    color: tomato;
+}
+.form-group
+{
+    display: flex;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: .5rem 5rem;
+    width:600px;
+    height:50px;
+    font-size: 20px;
+    /* font-weight: 100;   */
+}
+#samsungmobile
+{
+    width:100px;
+    height:20px;
+}
+#realmeemobile
+{
+    width:100px;
+    height:20px;
+}
+#vivomobile
+{
+    width:100px;
+    height:20px;
+}
+#iphonemobile
+{
+    width:100px;
+    height:20px;
+}
+#oppomobile
+{
+    width:100px;
+    height:20px;
+}
+#redmimobile
+{
+    width:100px;
+    height:20px;
+}
+#oneplusmobile
+{
+    width:100px;
+    height:20px;
+}
+#contactus
+{
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url('../Media22/ContactusBG.jpg');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    color:white;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+    margin: 1%;
+}
+#location
+{
+    width: 500px;
+    height:500px;
+}
